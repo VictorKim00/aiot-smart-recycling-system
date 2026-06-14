@@ -1,0 +1,14 @@
+# Custom YOLO dataset for AIoT Smart Recycling System
+# Folder structure:
+# datasets/waste/images/train/*.jpg
+# datasets/waste/images/val/*.jpg
+# datasets/waste/labels/train/*.txt
+# datasets/waste/labels/val/*.txt
+path: datasets/waste
+train: images/train
+val: images/val
+
+names:
+  0: plastic_bottle
+  1: can
+  2: paper

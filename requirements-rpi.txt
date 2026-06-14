@@ -1,0 +1,7 @@
+# Raspberry Pi runtime dependencies for final ONNX version.
+# Recommended system packages:
+#   sudo apt install -y python3-opencv python3-pil fonts-dejavu i2c-tools gpiod
+# Python package:
+onnxruntime
+# Optional DHT sensor package:
+adafruit-circuitpython-dht
