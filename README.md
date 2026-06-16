@@ -474,5 +474,5 @@ Completed:
 
 ```text
 GitHub Repository URL:
-https://github.com/your-username/your-repository-name
+https://github.com/VictorKim00/aiot-smart-recycling-system/tree/main
 ```
