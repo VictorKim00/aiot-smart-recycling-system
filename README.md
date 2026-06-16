@@ -1,5 +1,7 @@
 AIoT Smart Recycling System
-for IOT class
+
+for IoT Class
+
 1. Project Overview
 
 This project is an AIoT-based smart recycling system using Raspberry Pi 5, camera, YOLO object detection, multiple IoT sensors, LCD display, servo motor, and Google Sheets cloud dashboard.
@@ -404,9 +406,8 @@ Completed:
 19. Team Roles
 
 Member	Role
-김유신	Hardware assembly, code debugging, testing, github, notion
-정문석  Hardware assembly, Google Sheets dashboard , ppt, Raspberry Pi setup
-
+김유신	Hardware assembly, code debugging, testing, GitHub, Notion
+정문석	Hardware assembly, Google Sheets dashboard, PPT, Raspberry Pi setup
 
 ⸻
 
