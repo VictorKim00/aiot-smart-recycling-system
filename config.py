@@ -30,8 +30,8 @@ STATS_JSON = DATA_DIR / "stats.json"
 MODEL_PATH = str(BASE_DIR / "models" / "best.onnx")
 
 YOLO_IMAGE_SIZE = 640
-DETECTION_CONF_THRESHOLD = 0.35
-UNCERTAIN_CONF_THRESHOLD = 0.25
+DETECTION_CONF_THRESHOLD = 0.60
+UNCERTAIN_CONF_THRESHOLD = 0.45
 DETECTION_TRIES = 3
 
 # Camera: "auto", "picamera2", or "opencv"
@@ -52,7 +52,7 @@ PIR_COOLDOWN_SECONDS = 6
 # the system continues with Temp/Hum displayed as --.
 ENV_ENABLED = True
 DHT_PIN = 4
-DHT_TYPE = "DHT22"  # "DHT22" or "DHT11"
+DHT_TYPE = "DHT11"  # "DHT22" or "DHT11"
 
 # 7-inch touch screen / local display output.
 # This replaces the original I2C character LCD output.
@@ -74,7 +74,7 @@ LCD_I2C_ADDRESS = 0x27
 # not continuously rotate.
 SERVO_ENABLED = True
 CLEANING_SERVO_PIN = 18             # GPIO18, physical pin 12
-CLEANING_SERVO_RUN_SECONDS = 10
+CLEANING_SERVO_RUN_SECONDS = 15
 
 # Continuous rotation servo PWM duty settings.
 # 7.5 is usually stop, 10.0 rotates one direction, 5.0 rotates the other.
@@ -110,7 +110,7 @@ FIREBASE_AUTH_TOKEN = ""
 
 # Idle loop timing
 IDLE_LCD_INTERVAL = 3.0
-ENV_LOG_INTERVAL = 60.0
+ENV_LOG_INTERVAL = 10.0
 FULLNESS_IDLE_INTERVAL = 5.0
 
 # Demo/development behavior
