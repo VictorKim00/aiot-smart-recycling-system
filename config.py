@@ -102,9 +102,9 @@ ULTRASONIC_MAX_DISTANCE_CM = 120.0
 ULTRASONIC_TIMEOUT_SECONDS = 0.03
 
 # Cloud dashboard. Mobile alert is intentionally not included.
-CLOUD_ENABLED = False
+CLOUD_ENABLED = True
 CLOUD_MODE = "sheets"  # "sheets" or "firebase"
-SHEETS_WEBAPP_URL = ""
+SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwCEavXqznv_RV2c_bW9-2v3gRv-SAfOdYHbb0wt8PbHKPzXTCGt0z7-_coNf78apZT/exec"
 FIREBASE_DB_URL = ""
 FIREBASE_AUTH_TOKEN = ""
 
